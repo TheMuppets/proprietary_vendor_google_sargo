@@ -10,16 +10,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/etc/permissions/com.qualcomm.qcrilmsgtunnel.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qcrilmsgtunnel.xml \
     vendor/google/sargo/proprietary/etc/permissions/com.quicinc.cne.CNEService.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.quicinc.cne.CNEService.xml \
     vendor/google/sargo/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcrilhook.xml \
-    vendor/google/sargo/proprietary/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/telephonyservice.xml \
     vendor/google/sargo/proprietary/etc/permissions/uimremoteclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/uimremoteclient.xml \
     vendor/google/sargo/proprietary/etc/permissions/uimremoteserver.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/uimremoteserver.xml \
-    vendor/google/sargo/proprietary/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvideocodec.so \
-    vendor/google/sargo/proprietary/lib/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvt.so \
-    vendor/google/sargo/proprietary/lib/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvtextutils.so \
-    vendor/google/sargo/proprietary/lib/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-imsvtutils.so \
-    vendor/google/sargo/proprietary/lib/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/librcc.so \
-    vendor/google/sargo/proprietary/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsdm-disp-apis.so \
-    vendor/google/sargo/proprietary/lib/libsecureui_svcsock_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecureui_svcsock_system.so \
     vendor/google/sargo/proprietary/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvideocodec.so \
     vendor/google/sargo/proprietary/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvt.so \
     vendor/google/sargo/proprietary/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/lib-imsvtextutils.so \
@@ -27,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimscamera_jni.so \
     vendor/google/sargo/proprietary/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsmedia_jni.so \
     vendor/google/sargo/proprietary/lib64/librcc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/librcc.so \
-    vendor/google/sargo/proprietary/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsdm-disp-apis.so \
     vendor/google/sargo/proprietary/lib64/libsecureui_svcsock_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecureui_svcsock_system.so \
     vendor/google/sargo/proprietary/product/etc/ambient/matcher_tah.leveldb:$(TARGET_COPY_OUT_PRODUCT)/etc/ambient/matcher_tah.leveldb \
     vendor/google/sargo/proprietary/product/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/Nexus/ATT/ATT_profiles.xml \
@@ -59,7 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/product/etc/sysconfig/pixel_experience_2019_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2019_midyear.xml \
     vendor/google/sargo/proprietary/product/lib/libdmengine.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdmengine.so \
     vendor/google/sargo/proprietary/product/lib/libdmjavaplugin.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libdmjavaplugin.so \
-    vendor/google/sargo/proprietary/product/lib/libsecureuisvc_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libsecureuisvc_jni.so \
     vendor/google/sargo/proprietary/product/lib64/libsecureuisvc_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libsecureuisvc_jni.so \
     vendor/google/sargo/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/google/sargo/proprietary/system_ext/etc/permissions/com.android.omadm.radioconfig.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.omadm.radioconfig.xml \
@@ -70,84 +60,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/system_ext/etc/permissions/obdm_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/obdm_permissions.xml \
     vendor/google/sargo/proprietary/system_ext/etc/permissions/privapp-permissions-google-se-lineage.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se-lineage.xml \
     vendor/google/sargo/proprietary/system_ext/etc/permissions/vzw_mvs_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/vzw_mvs_permissions.xml \
-    vendor/google/sargo/proprietary/system_ext/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.ant@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.uceservice@2.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.uceservice@2.1.so \
-    vendor/google/sargo/proprietary/system_ext/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdiag_system.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.1.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.color@1.2.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.display.postproc@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.google.wifi_ext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.google.wifi_ext@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.alarm@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qseecom@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.qteeconnector@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.am@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.1.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.2.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.3.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.ims@1.4.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.qtiradio@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.qtiradio@2.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.qtiradio@2.1.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.qtiradio@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.qtiradio@2.2.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.uim@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.uim@1.1.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.uim_remote_client@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.uim_remote_client@1.1.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.scve.objecttracker@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.scve.objecttracker@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.scve.panorama@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.scve.panorama@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.soter@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.tui_comm@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.ims.callinfo@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.imsrtpservice@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.ant@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/com.qualcomm.qti.uceservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.uceservice@2.1.so \
     vendor/google/sargo/proprietary/system_ext/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdiag_system.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/libpowerstatshaldataprovider.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libpowerstatshaldataprovider.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.1.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.color@1.2.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.display.postproc@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.google.wifi_ext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.google.wifi_ext@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.alarm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.alarm@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.data.latency@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.qseecom@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qseecom@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.qteeconnector@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.qteeconnector@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.am@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.1.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.2.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.3.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.3.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.ims@1.4.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.ims@1.4.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.qtiradio@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.qtiradio@2.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.qtiradio@2.1.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.qtiradio@2.2.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.uim@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.uim@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.uim@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.uim@1.1.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.scve.objecttracker@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.scve.panorama@1.0-adapter-helper.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.scve.panorama@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.scve.panorama@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.soter@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.soter@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.hardware.tui_comm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.tui_comm@1.0.so \
-    vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.ims.callinfo@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.ims.callinfo@1.0.so \
     vendor/google/sargo/proprietary/system_ext/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/google/sargo/proprietary/system_ext/priv-app/EuiccSupportPixel/esim-full-v0.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/esim-full-v0.img \
     vendor/google/sargo/proprietary/system_ext/priv-app/EuiccSupportPixel/esim-v1.img:$(TARGET_COPY_OUT_SYSTEM_EXT)/priv-app/EuiccSupportPixel/esim-v1.img
@@ -198,7 +111,6 @@ PRODUCT_PACKAGES += \
     RilConfigService \
     grilservice \
     obdm_stub \
-    QtiTelephonyServicelibrary \
     qcrilhook \
     uimremoteclientlibrary \
     uimremoteserverlibrary \
@@ -206,14 +118,7 @@ PRODUCT_PACKAGES += \
     RadioConfigLib \
     com.android.hotwordenrollment.common.util \
     com.google.android.camera.extensions \
-    com.qualcomm.qti.uceservice-V2.0-java \
-    com.qualcomm.qti.uceservice-V2.1-java \
-    google-ril \
-    vendor.qti.hardware.alarm-V1.0-java \
-    vendor.qti.hardware.data.latency-V1.0-java \
-    vendor.qti.hardware.soter-V1.0-java \
-    vendor.qti.ims.callinfo-V1.0-java \
-    vendor.qti.voiceprint-V1.0-java
+    google-ril
 PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/product/etc/CarrierSettings/a1_at.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/a1_at.pb \
     vendor/google/sargo/proprietary/product/etc/CarrierSettings/ahamo_jp.pb:$(TARGET_COPY_OUT_PRODUCT)/etc/CarrierSettings/ahamo_jp.pb \
