@@ -155,7 +155,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     QtiTelephonyService \
     atfwd \
-    datastatusnotification \
     ims \
     uceShimService \
     uimremoteclient \
