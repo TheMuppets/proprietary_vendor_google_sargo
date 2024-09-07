@@ -89,7 +89,7 @@ PRODUCT_PACKAGES += \
     libhwinfo \
     com.android.hotwordenrollment.common.util \
     com.google.android.camera.extensions \
-    manifest_wifi_ext_aidl
+    manifest_wifi_ext_aidl.xml
 
 PRODUCT_PACKAGES += \
     libdmengine_libdmengine_symlink32 \
@@ -1557,12 +1557,12 @@ PRODUCT_PACKAGES += \
     libbtnv \
     TimeService \
     com.google.android.camera.experimental2018 \
-    android.hardware.confirmationui@1.0-service-google \
-    android.hardware.identity.strongbox \
-    android.hardware.keymaster@4.1-service.citadel \
-    android.hardware.weaver@1.0-service.citadel \
-    manifest_android.hardware.drm@1.4-service.widevine \
-    rebootescrow-citadel
+    android.hardware.confirmationui@1.0-service-google.xml \
+    android.hardware.identity.strongbox.xml \
+    android.hardware.keymaster@4.1-service.citadel.xml \
+    android.hardware.weaver@1.0-service.citadel.xml \
+    manifest_android.hardware.drm@1.4-service.widevine.xml \
+    rebootescrow-citadel.xml
 
 PRODUCT_PACKAGES += \
     libEGL_adreno_libEGL_adreno_symlink32 \
