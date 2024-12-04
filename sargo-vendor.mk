@@ -1292,7 +1292,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/vendor/lib64/libnosprotos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnosprotos.so \
     vendor/google/sargo/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/google/sargo/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
-    vendor/google/sargo/proprietary/vendor/lib64/libpixelstats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelstats.so \
     vendor/google/sargo/proprietary/vendor/lib64/libpower_anomaly_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower_anomaly_data.so \
     vendor/google/sargo/proprietary/vendor/lib64/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcbor.so \
     vendor/google/sargo/proprietary/vendor/lib64/libqcodec2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcodec2.so \
@@ -1338,7 +1337,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/vendor/lib64/nos_app_identity.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nos_app_identity.so \
     vendor/google/sargo/proprietary/vendor/lib64/nos_app_keymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nos_app_keymaster.so \
     vendor/google/sargo/proprietary/vendor/lib64/nos_app_weaver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nos_app_weaver.so \
-    vendor/google/sargo/proprietary/vendor/lib64/pixelatoms-cpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pixelatoms-cpp.so \
+    vendor/google/sargo/proprietary/vendor/lib64/pixelatoms-cpp-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/pixelatoms-cpp-legacy.so \
     vendor/google/sargo/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/google/sargo/proprietary/vendor/lib64/unnhal-acc-adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-adreno.so \
     vendor/google/sargo/proprietary/vendor/lib64/unnhal-acc-common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-common.so \
