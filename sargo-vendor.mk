@@ -797,14 +797,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/vendor/firmware/widevine.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mbn \
     vendor/google/sargo/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
     vendor/google/sargo/proprietary/vendor/firmware/wlanmdsp.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/wlanmdsp.mbn \
-    vendor/google/sargo/proprietary/vendor/lib/camera/com.qti.sensormodule.metric_imx363.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.metric_imx363.bin \
-    vendor/google/sargo/proprietary/vendor/lib/camera/com.qti.sensormodule.primax_imx355.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.primax_imx355.bin \
-    vendor/google/sargo/proprietary/vendor/lib/camera/com.qti.sensormodule.primax_imx355_s.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.primax_imx355_s.bin \
-    vendor/google/sargo/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
-    vendor/google/sargo/proprietary/vendor/lib/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreview.bin \
-    vendor/google/sargo/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
-    vendor/google/sargo/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
-    vendor/google/sargo/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
     vendor/google/sargo/proprietary/vendor/lib64/camera/com.google.tuned.b4s4_imx355.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.google.tuned.b4s4_imx355.bin \
     vendor/google/sargo/proprietary/vendor/lib64/camera/com.google.tuned.b4s4_imx355_s.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.google.tuned.b4s4_imx355_s.bin \
     vendor/google/sargo/proprietary/vendor/lib64/camera/com.google.tuned.b4s4_imx363.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.google.tuned.b4s4_imx363.bin \
